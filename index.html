@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rick & Morty Characters</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Rick & Morty</h1>
+    </header>
+    <main>
+        <section id="images">
+            <img src="rick.webp" alt="Rick">
+            <img src="morty.webp" alt="Morty">
+        </section>
+        <section id="buttons">
+            <button id="get-all-characters">Obtener Todos los Personajes</button>
+            <button id="apply-filters">Buscar</button>
+        </section>
+        <section id="filters">
+            <input type="text" id="name" placeholder="Nombre">
+            <select id="status">
+                <option value="">Estado</option>
+                <option value="alive">Alive</option>
+                <option value="dead">Dead</option>
+                <option value="unknown">Unknown</option>
+            </select>
+            <select id="species">
+                <option value="">Especie</option>
+            </select>
+            <select id="type">
+                <option value="">Tipo</option>
+            </select>
+            <select id="gender">
+                <option value="">Género</option>
+                <option value="female">Female</option>
+                <option value="male">Male</option>
+                <option value="genderless">Genderless</option>
+                <option value="unknown">Unknown</option>
+            </select>
+        </section>
+        <section id="results">
+        </section>
+    </main>
+    <script src="scripts.js"></script>
+</body>
+</html>
